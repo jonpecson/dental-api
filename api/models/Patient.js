@@ -23,39 +23,22 @@ module.exports = {
             unique: true
         },
 
+        civil_status: {
+            type: 'string',
+            unique: true
+        },
+
         date_of_birth: {
             type: 'date',
         },
 
-        birth_place: {
+
+        gender: {
             type: 'string',
         },
 
-        sex: {
-            type: 'string',
-        },
 
-        civil_status: {
-            type: 'string',
-        },
-
-        spouse_name: {
-            type: 'string',
-        },
-
-        spouse_contact: {
-            type: 'string',
-        },
-
-        guardian_name: {
-            type: 'string',
-        },
-
-        guardian_relation: {
-            type: 'string',
-        },
-
-        guardian_contact: {
+        occupation: {
             type: 'string',
         },
 
@@ -67,31 +50,10 @@ module.exports = {
             type: 'string',
         },
 
-        zipcode: {
+        contact_number: {
             type: 'string',
         },
 
-        state: {
-            type: 'string',
-        },
-
-        country: {
-            type: 'string',
-        },
-
-        home_phone: {
-            type: 'string',
-        },
-
-        mobile_phone: {
-            type: 'string',
-        },
-
-        email: {
-            type: 'string',
-            required: true,
-            unique: true
-        },
 
 
         // Add a reference to customer / FK
